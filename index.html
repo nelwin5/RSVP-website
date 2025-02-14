@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Elegant Event Hero Section</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Geologica:wght@100&family=Inter:ital,opsz@0,14..32;1,14..32&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Liter&family=Open+Sans&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+        <a class="navbar-brand" href="index.html"> 
+            <img src="images/logo.png" alt="Logo">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Templates</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+            </ul>
+        </div>
+        
+        <!-- Sign in & Sign up -->
+        <div class="d-flex align-items-center">
+            <span class="material-icons search-icon">search</span>
+            <div class="separator"></div>
+            <a href="login.html" class="btn-outline me-2">Login</a>
+            <a href="signup.html" class="btn-dark">Create Account</a>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content text-center position-relative">
+        <h1>Preserve Your <br> Unforgettable Memories</h1>
+        <a href="#next-section" class="hero-btn learn-more-btn">Learn More</a>
+        <a href="login.html" class="hero-btn">Start Planning →</a>
+    </div>
+</section>
+
+<!-- Horizontal Scroll Section -->
+ 
+<section class="scroll-section"id="next-section">
+    <div class="background-shape left"></div>
+    <div class="background-shape right"></div>
+    <div class="container-fluid">
+        <h2 class="text-center">Our Featured Events</h2>
+        <div class="scroll-container">
+            <div class="scroll-item" onclick="window.location.href='template1.html'">
+                <img src="images/event1.jpg" alt="Elegant Wedding Ceremony">
+                <div class="hover-content">
+                    <h3>Elegant Wedding Ceremony</h3>
+                    <p>A dreamy and romantic wedding setting with stunning décor and timeless elegance.</p>
+                    <div class="hover-text">Check Template</div>
+                </div>
+            </div>
+            <div class="scroll-item" onclick="window.location.href='template2.html'">
+                <img src="images/event2.jpg" alt="Luxury Corporate Gala">
+                <div class="hover-content">
+                    <h3>Luxury Corporate Gala</h3>
+                    <p>An upscale corporate event featuring fine dining, entertainment, and networking.</p>
+                    <div class="hover-text">Check Template</div>
+                </div>
+            </div>
+            <div class="scroll-item" onclick="window.location.href='template3.html'">
+                <img src="images/event3.jpg" alt="Beautiful Outdoor Reception">
+                <div class="hover-content">
+                    <h3>Beautiful Outdoor Reception</h3>
+                    <p>A breathtaking outdoor gathering surrounded by nature, perfect for celebrations.</p>
+                    <div class="hover-text">Check Template</div>
+                </div>
+            </div>
+            <div class="scroll-item" onclick="window.location.href='template4.html'">
+                <img src="images/event4.jpg" alt="Modern Engagement Party">
+                <div class="hover-content">
+                    <h3>Modern Engagement Party</h3>
+                    <p>A stylish and trendy engagement party with contemporary décor and entertainment.</p>
+                    <div class="hover-text">Check Template</div>
+                </div>
+            </div>
+            <div class="scroll-item" onclick="window.location.href='template5.html'">
+                <img src="images/event5.jpg" alt="Classic Anniversary Celebration">
+                <div class="hover-content">
+                    <h3>Classic Anniversary Celebration</h3>
+                    <p>Celebrating milestones with elegance, heartfelt moments, and loved ones.</p>
+                    <div class="hover-text">Check Template</div>
+                </div>
+            </div>
+            <div class="scroll-item" onclick="window.location.href='template6.html'">
+                <img src="images/event6.jpg" alt="Fun Birthday Bash">
+                <div class="hover-content">
+                    <h3>Fun Birthday Bash</h3>
+                    <p>A lively and colorful birthday party filled with fun, laughter, and memories.</p>
+                    <div class="hover-text">Check Template</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="event-section py-4">
+        <div class="container">
+            <h2 class="text-center mb-3">Create Your Unique Event Experience</h2>
+            <p class="text-center">Our platform offers customizable templates to reflect your event's personality. </br>Effortlessly manage guest lists, seating arrangements, and guest photo uploads for a seamless experience.</p>
+    
+            <div class="row mt-3">
+                <div class="col-md-3">
+                    <div class="feature-box p-3 shadow-sm bg-white rounded">
+                        <div class="feature-icon">🎨</div>
+                        <h5 class="feature-title">Tailored Templates for Every Occasion</h5>
+                        <p>Choose from a variety of designs to suit your event.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box p-3 shadow-sm bg-white rounded">
+                        <div class="feature-icon">📋</div>
+                        <h5 class="feature-title">Efficient Guest List Management</h5>
+                        <p>Keep track of your guests effortlessly with our tools.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box p-3 shadow-sm bg-white rounded">
+                        <div class="feature-icon">🪑</div>
+                        <h5 class="feature-title">Organized Seating Arrangements</h5>
+                        <p>Ensure everyone is seated comfortably with our features.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box p-3 shadow-sm bg-white rounded">
+                        <div class="feature-icon">📸</div>
+                        <h5 class="feature-title">Capture Every Moment</h5>
+                        <p>Allow guests to easily upload photos and videos during your event.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- FAQ Section -->
+<div class="faq-background"></div>
+<div class="faq-container">
+<section class="faq-section py-5 text-center">
+    <div class="container">
+        <h2 class="mb-4">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How do I customize my event template?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        You can customize your event template by selecting different themes, fonts, colors, and adding personalized content through our easy-to-use editor.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Is there a free trial available?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes! We offer a free trial that allows you to explore our features before making a purchase.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Can I share my event page with guests?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Absolutely! You can share your event page with guests via a unique link or QR code for easy access.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        How do I manage guest RSVPs?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        You can manage guest RSVPs directly from your dashboard, track responses, and send reminders easily.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="faq-footer text-center mt-4">
+            <h4 class="fw-bold">Still have questions?</h4>
+            <p>We're here to help you with any inquiries.</p>
+            <a href="contact.html" class="faq-button">Contact us</a>
+        </div>
+    </div>
+</section>
+</div>
+<section class="testimonial-section text-center">
+    <h2 class="mb-4">What Our Clients Say</h2>
+    <div class="testimonial-container">
+        <div class="testimonial-box">
+            <h4>John Doe</h4>
+            <p>"This service made my wedding planning seamless! Highly recommend."</p>
+            <span>Doe Events</span>
+        </div>
+        <div class="testimonial-box">
+            <h4>Jane Smith</h4>
+            <p>"An absolute game-changer for our corporate events. Love it!"</p>
+            <span>Smith Enterprises</span>
+        </div>
+        <div class="testimonial-box">
+            <h4>Michael Brown</h4>
+            <p>"Fantastic templates and great customer support!"</p>
+            <span>Brown Celebrations</span>
+        </div>
+        <div class="testimonial-box">
+            <h4>Emily White</h4>
+            <p>"Helped me organize my event like a pro. Super easy to use!"</p>
+            <span>White Events</span>
+        </div>
+        <div class="testimonial-box">
+            <h4>David Johnson</h4>
+            <p>"Made guest management so much easier. Love the features!"</p>
+            <span>Johnson Weddings</span>
+        </div>
+        <div class="testimonial-box">
+            <h4>Sarah Williams</h4>
+            <p>"A must-have for anyone planning an event! Highly customizable."</p>
+            <span>Williams Celebrations</span>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="top-section">
+            <div class="left-content">
+                <h2>Subscribe for Newsletter</h2>
+                <p>Our clients love the memories we help create!</p>
+                <a class="navbar-brand" href="index.html"> 
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="right-content">
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Join</button>
+                </div>
+                <p class="privacy-text">We respect your privacy and protect your information.</p>
+            </div>
+        </div>
+
+        <div class="links-section">
+            <div class="links-group">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Event Templates</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact US</a></li>
+                </ul>
+            </div>
+            <div class="links-group">
+                <h3>Contacts</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">X</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+            <div class="links-group">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Term of Use</a></li>
+                    <li><a href="#">User Agreement</a></li>
+                    <li><a href="#">Data Protection</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bottom-section">
+            <p>© 2025 Tale’s Studio. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+
+            
+<script>
+    
+    // dsdasdsass
+    document.addEventListener("DOMContentLoaded", function () {
+    const scrollSection = document.querySelector(".scroll-section");
+    const scrollContainer = document.querySelector(".scroll-container");
+
+    if (!scrollSection || !scrollContainer) return; // Ensure elements exist
+
+    let isInsideSection = false;
+
+    // Detect when the user enters the scroll section
+    scrollSection.addEventListener("mouseenter", function () {
+        isInsideSection = true;
+    });
+
+    // Detect when the user leaves the scroll section
+    scrollSection.addEventListener("mouseleave", function () {
+        setTimeout(() => isInsideSection = false, 100); // Small delay for smooth exit
+    });
+
+    // Handle mouse wheel scrolling
+    document.addEventListener("wheel", function (event) {
+        if (!isInsideSection) return; // Only apply custom scrolling inside the section
+
+        event.preventDefault(); // Prevent vertical scrolling
+
+        let maxScrollLeft = scrollContainer.scrollWidth - scrollContainer.clientWidth;
+
+        if ((scrollContainer.scrollLeft === 0 && event.deltaY < 0) || 
+            (scrollContainer.scrollLeft >= maxScrollLeft && event.deltaY > 0)) {
+            return; // Allow normal scrolling when at the edges
+        }
+
+        const scrollAmount = event.deltaY * 2; // Adjust multiplier for smoothness
+        scrollContainer.scrollBy({
+            left: scrollAmount,
+            behavior: "smooth",
+        });
+
+    }, { passive: false }); // Ensure `preventDefault()` works
+});
+// Testimony
+document.addEventListener("DOMContentLoaded", function () {
+    const container = document.querySelector(".testimonial-container");
+    const wrapper = document.querySelector(".testimonial-wrapper");
+
+    // Duplicate testimonials for seamless looping
+    wrapper.innerHTML += wrapper.innerHTML;
+
+    let isPaused = false;
+    let isUserScrolling = false;
+    let scrollSpeed = 1; // Slower speed for smooth effect
+
+    function startScrolling() {
+        function scrollStep() {
+            if (!isPaused && !isUserScrolling) {
+                container.scrollTop += scrollSpeed;
+
+                // Reset scroll to the top when reaching the end
+                if (container.scrollTop >= wrapper.scrollHeight / 2) {
+                    container.scrollTop = 0;
+                }
+            }
+        }
+
+        // Run scrolling function continuously with a smooth effect
+        let scrollInterval = setInterval(scrollStep, 30);
+
+        // Pause scrolling when hovering
+        container.addEventListener("mouseenter", function () {
+            isPaused = true;
+        });
+
+        // Resume scrolling when leaving
+        container.addEventListener("mouseleave", function () {
+            isPaused = false;
+        });
+
+        // Detect manual scrolling and pause auto-scroll
+        container.addEventListener("scroll", function () {
+            isUserScrolling = true;
+
+            // Resume auto-scrolling after 2 seconds of inactivity
+            clearTimeout(container.scrollTimeout);
+            container.scrollTimeout = setTimeout(() => {
+                isUserScrolling = false;
+            }, 2000);
+        });
+    }
+
+    startScrolling();
+});
+
+
+</script>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
